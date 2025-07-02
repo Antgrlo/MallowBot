@@ -1,0 +1,35 @@
+# 👉 Ignore l’environnement virtuel local
+.venv/
+env/
+venv/
+
+# 👉 Fichiers temporaires Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# 👉 Notebooks Jupyter checkpoint
+.ipynb_checkpoints/
+
+# 👉 Fichiers de logs ou traces
+*.log
+*.tmp
+*.bak
+
+# 👉 Données sensibles
+.env
+*.key
+*.pem
+*.db
+
+# 👉 Fichiers de configuration VSCode (optionnel)
+.vscode/
+
+# 👉 Fichiers système
+.DS_Store
+Thumbs.db
+
+# 👉 Données brutes / exports (à adapter selon ton projet)
+data/*.csv
+*.sqlite
